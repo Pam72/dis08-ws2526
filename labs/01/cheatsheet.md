@@ -13,27 +13,32 @@ Headings are created with one or more `#` characters at the beginning of a line.
 The more `#` you use, the smaller the heading. Don’t forget the space after the `#`.
 
 **Example:**
-H1 - # H1
-H2 - ## H2
-H3 - ### H3
+# H1 - '# H1'
+## H2 - '## H2'
+### H3 - '### H3'
 
-## Paragraphs & line breaks
-Paragraphs are separated by a blank line.
-Line breaks are created by two spaces at the end of a line.
+### Paragraphs & Line Breaks
+Paragraphs are separated by a **blank line**.  
+Line breaks are created by adding **two spaces at the end of a line**.
 
 **Example:**
+
 First paragraph.
 
-Second paragraph with line breaks.
+Second paragraph with  
+a line break.
+
 
 ### Bold
-Bold is created with **.
+Bold text is created using double asterisks `**`
+Bold text can also be created by using double underscores `__`.
 
 **Example:**
 **This text is bold**. If only **certain** words need to be **bold**, just put the '**' around single words. Otherwise wrap the whole sentence with '**'.
 
 ### Italic
 Italic is created with '_'. 
+Italic text can also be created by using the single asteriks `*`.
 
 **Example:**
 _This text is in italic_. If only _certain_ words need to be _italic_, just put the _ around single words. Otherwise wrap the whole sentence with '_'.
