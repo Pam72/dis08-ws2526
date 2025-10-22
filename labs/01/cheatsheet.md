@@ -253,8 +253,6 @@ Content of section 1.
 ## 10. Platform/Tool Specific: GitHub
 GitHub supports standard Markdown plus some **additional features** that are useful for collaboration and project management.
 
----
-
 ### Task Lists
 GitHub allows interactive task lists in issues, pull requests, and README files.  
 Use `- [ ]` for unchecked and `- [x]` for checked boxes.
