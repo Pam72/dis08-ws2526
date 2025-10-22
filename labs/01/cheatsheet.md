@@ -13,7 +13,7 @@ Headings are created with one or more `#` characters at the beginning of a line.
 The more `#` you use, the smaller the heading. Don’t forget the space after the `#`.
 
 **Example:**
-# H1 - '# H1'
+# H1 - `# H1`
 ## H2 - '## H2'
 ### H3 - '### H3'
 
@@ -34,27 +34,34 @@ Bold text is created using double asterisks `**`
 Bold text can also be created by using double underscores `__`.
 
 **Example:**
-**This text is bold**. If only **certain** words need to be **bold**, just put the '**' around single words. Otherwise wrap the whole sentence with '**'.
+**This text is bold**. If only **certain** words need to be **bold**, just put the `**` around single words. 
 
 ### Italic
-Italic is created with '_'. 
-Italic text can also be created by using the single asteriks `*`.
+Italic is created with one asteriks `*`. 
+Italic text can also be created by using the single underscore `_`.
 
 **Example:**
-_This text is in italic_. If only _certain_ words need to be _italic_, just put the _ around single words. Otherwise wrap the whole sentence with '_'.
+_This text is in italic_. If only _certain_ words need to be _italic_, just put the `_` around single words. 
 
 ## Bold & Italic
+Text can be in italic and bold using three asterisks `***` or three underscore `___`.
 
 **Example:**
-
+***This text is bold and italic***
 
 ### Strikethrough
-Strikethrough is created with '~~'.
+Strikethrough text is created with double tildes `~~`.
 
 **Example:**
-~~This text is with strikethrough~~. If only ~~certain~~ words need to be ~~strikethrough~~, just put the '~~' around single words. Otherwise wrap the whole sentence with ~~.
+~~This text is with strikethrough~~. If only ~~certain~~ words need to be ~~strikethrough~~, just put the `~~` around single words. 
 
 ## Inline Code
+Inline code is created by wrapping text in single backticks `` ` ``.  
+This prevents Markdown from interpreting formatting symbols inside.
+
+**Example:**
+Use the command `git status` to check your repository.
+
 
 ## 2. Lists
 ### Ordered List
