@@ -26,8 +26,7 @@ Line breaks are created by adding two spaces at the end of a line.
 
 First paragraph.
 
-Second paragraph with  
-a line break.
+Second paragraph with  a line break.
 
 
 ### Bold
