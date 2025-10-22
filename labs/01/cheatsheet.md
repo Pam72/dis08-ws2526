@@ -1,4 +1,4 @@
-# Markdown Cheat Sheet
+#Markdown Cheat Sheet
 
 This document provides an overview of Markdown elements with brief explanations, code examples, and rendered results.
 Markdown is a simple markup language for formatting text on platforms like GitHub.
