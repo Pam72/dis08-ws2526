@@ -76,41 +76,40 @@ Use the command `git status` to check your repository.
 --- 
 # ToDo
 
-
 Nested lists
 
-## Links & Images
+## 3. Links & Images
 Inline links
 Reference-style links
 Images
 Image + link combination
 
-## Code & Technical Content
+## 4. Code & Technical Content
 Inline code
 Fenced code blocks
 Syntax highlighting (languages like Python, R, HTML, etc.)
 
-## Quotes & Notes
+## 5. Quotes & Notes
 Blockquotes
 Nested blockquotes
 Blockquotes with formatting
 
-## Tables
+## 6. Tables
 Basic tables
 Alignment
 Complex tables
 
-## Task Lists
+## 7. Task Lists
 Checkboxes
 
-## Dividers & Layout
+## 8. Dividers & Layout
 Horizontal rules
 Line breaks
 
-## Online and collaborative editors
+## 9. Online and collaborative editors
 Markdown-based editors
 
-## Platform/Tool Specific: GitHub
+## 10. Platform/Tool Specific: GitHub
 Task lists
 Mentioning users (@username)
 Automatic linking of issues/PRs
