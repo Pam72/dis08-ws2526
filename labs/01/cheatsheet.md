@@ -16,6 +16,17 @@ Headings are created with `#`. The more `#`, the smaller the heading. Note the s
 ## H2 - '## H2'
 ### H3 - '### H3'
 
+## Paragraphs & line breaks
+Paragraphs are separated by a blank line.
+Line breaks are created by two spaces at the end of a line.
+
+First paragraph.
+
+Second paragraph with
+
+
+line breaks.
+
 ### Bold
 Bold is created with '**'
 **This text is bold**. If only **certain** words need to be **bold**, just put the '**' around single words. Otherwise wrap the whole sentence with '**'.
@@ -32,16 +43,7 @@ Strikethrough is created with '~~'.
 **Example:**
 ~~This text is with strikethrough~~. If only ~~certain~~ words need to be ~~strikethrough~~, just put the '~~' around single words. Otherwise wrap the whole sentence with ~~.
 
---- 
-# ToDo
-
-## Basic Formatting
-
-Paragraphs & line breaks
-
-Inline code
-
-## Lists
+## 2. Lists
 ### Ordered List
 
 1. First item
@@ -53,6 +55,17 @@ Inline code
 - First item
 - Second item
 - Third item
+
+--- 
+# ToDo
+
+## Basic Formatting
+
+
+
+Inline code
+
+
 Nested lists
 
 ## Links & Images
