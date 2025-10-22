@@ -26,7 +26,7 @@ Second paragraph with line breaks.
 
 
 ### Bold
-Bold is created with '**'
+Bold is created with **.
 **This text is bold**. If only **certain** words need to be **bold**, just put the '**' around single words. Otherwise wrap the whole sentence with '**'.
 
 ### Italic
