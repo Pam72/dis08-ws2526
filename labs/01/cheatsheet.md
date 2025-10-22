@@ -9,24 +9,27 @@ You can also see https://www.markdownguide.org/cheat-sheet/ for a quick overview
 ## 1. Basic Formatting
 
 ### Headings
-Headings are created with `#`. The more `#`, the smaller the heading. Note the space!
+Headings are created with one or more `#` characters at the beginning of a line.  
+The more `#` you use, the smaller the heading. Don’t forget the space after the `#`.
 
 **Example:**
-# H1 - '# H1'
-## H2 - '## H2'
-### H3 - '### H3'
+H1 - # H1
+H2 - ## H2
+H3 - ### H3
 
 ## Paragraphs & line breaks
 Paragraphs are separated by a blank line.
 Line breaks are created by two spaces at the end of a line.
 
+**Example:**
 First paragraph.
 
 Second paragraph with line breaks.
 
-
 ### Bold
 Bold is created with **.
+
+**Example:**
 **This text is bold**. If only **certain** words need to be **bold**, just put the '**' around single words. Otherwise wrap the whole sentence with '**'.
 
 ### Italic
@@ -35,11 +38,18 @@ Italic is created with '_'.
 **Example:**
 _This text is in italic_. If only _certain_ words need to be _italic_, just put the _ around single words. Otherwise wrap the whole sentence with '_'.
 
+## Bold & Italic
+
+**Example:**
+
+
 ### Strikethrough
 Strikethrough is created with '~~'.
 
 **Example:**
 ~~This text is with strikethrough~~. If only ~~certain~~ words need to be ~~strikethrough~~, just put the '~~' around single words. Otherwise wrap the whole sentence with ~~.
+
+## Inline Code
 
 ## 2. Lists
 ### Ordered List
