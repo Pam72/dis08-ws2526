@@ -15,8 +15,7 @@ The more `#` you use, the smaller the heading. Don’t forget the space after th
 **Example:**
 # H1 - `# H1`
 ## H2 - `## H2`
-### H3 - `### H3`
-
+### H3 - `### H3`  
 
 ### Paragraphs & Line Breaks
 Paragraphs are separated by a blank line.  
@@ -28,44 +27,38 @@ First paragraph.
 
 Second paragraph with a line break.  
 
-
 ### Bold
 Bold text is created using double asterisks `**`
 Bold text can also be created by using double underscores `__`.
 
 **Example:**
-**This text is bold**. If only **certain** words need to be **bold**, just put the `**` around single words. 
-
+**This text is bold**. If only **certain** words need to be **bold**, just put the `**` around single words.   
 
 ### Italic
 Italic is created with one asteriks `*`. 
 Italic text can also be created by using the single underscore `_`.
 
 **Example:**
-_This text is in italic_. If only _certain_ words need to be _italic_, just put the `_` around single words. 
-
+_This text is in italic_. If only _certain_ words need to be _italic_, just put the `_` around single words.  
 
 ## Bold & Italic
 Text can be in italic and bold using three asterisks `***` or three underscore `___`.
 
 **Example:**
-***This text is bold and italic***
-
+***This text is bold and italic***  
 
 ### Strikethrough
 Strikethrough text is created with double tildes `~~`.
 
 **Example:**
-~~This text is with strikethrough~~. If only ~~certain~~ words need to be ~~strikethrough~~, just put the `~~` around single words. 
-
+~~This text is with strikethrough~~. If only ~~certain~~ words need to be ~~strikethrough~~, just put the `~~` around single words.  
 
 ## Inline Code
 Inline code is created by wrapping text in single backticks `` ` ``.  
 This prevents Markdown from interpreting formatting symbols inside.
 
 **Example:**
-Use the command `git status` to check your repository.
-
+Use the command `git status` to check your repository.  
 
 ## 2. Lists
 ### Ordered List
