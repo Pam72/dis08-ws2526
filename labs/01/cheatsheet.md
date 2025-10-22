@@ -14,8 +14,8 @@ The more `#` you use, the smaller the heading. Don’t forget the space after th
 
 **Example:**
 # H1 - `# H1`
-## H2 - '## H2'
-### H3 - '### H3'
+## H2 - `## H2`
+### H3 - `### H3`
 
 ### Paragraphs & Line Breaks
 Paragraphs are separated by a **blank line**.  
