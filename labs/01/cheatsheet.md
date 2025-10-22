@@ -225,7 +225,8 @@ This improves readability, especially in long documents.
 Horizontal rules create a visual divider.  
 They are created with three or more dashes `---`, asterisks `***`, or underscores `___` on a line by themselves.
 
-**Example:**
+**Example:**  
+
 `---`   
 ---
 `***` 
