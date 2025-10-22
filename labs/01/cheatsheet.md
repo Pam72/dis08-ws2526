@@ -226,9 +226,12 @@ Horizontal rules create a visual divider.
 They are created with three or more dashes `---`, asterisks `***`, or underscores `___` on a line by themselves.
 
 **Example:**
-`---` ---
-`***` ***
-`___` ___
+`---`   
+---
+`***` 
+***
+`___` 
+___
 
 ### Line Breaks
 To create a line break (a new line without starting a new paragraph), add two or more spaces at the end of a line.
