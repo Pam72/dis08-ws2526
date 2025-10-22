@@ -22,10 +22,8 @@ Line breaks are created by two spaces at the end of a line.
 
 First paragraph.
 
-Second paragraph with
+Second paragraph with line breaks.
 
-
-line breaks.
 
 ### Bold
 Bold is created with '**'
