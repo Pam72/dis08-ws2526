@@ -9,9 +9,9 @@ You can also see https://www.markdownguide.org/cheat-sheet/ for a quick overview
 ## 1. Basic Formatting
 
 ### Headings
-Mit `#` werden Überschriften erzeugt.  Je mehr `#`, desto kleiner die Überschrift.
+Headings are created with `#`. The more `#`, the smaller the heading.
 
-**Beispiel:**
+**Example:**
 # H1 - '# H1'
 ## H2 - '## H2'
 ### H3 - '### H3'
