@@ -41,7 +41,7 @@ Italic text can also be created by using the single underscore `_`.
 **Example:**
 _This text is in italic_. If only _certain_ words need to be _italic_, just put the `_` around single words.  
 
-## Bold & Italic
+### Bold & Italic
 Text can be in italic and bold using three asterisks `***` or three underscore `___`.
 
 **Example:**
@@ -53,7 +53,7 @@ Strikethrough text is created with double tildes `~~`.
 **Example:**
 ~~This text is with strikethrough~~. If only ~~certain~~ words need to be ~~strikethrough~~, just put the `~~` around single words.  
 
-## Inline Code
+### Inline Code
 Inline code is created by wrapping text in single backticks `` ` ``.  
 This prevents Markdown from interpreting formatting symbols inside.
 
@@ -139,44 +139,154 @@ This preserves formatting and indentation.
 ### Syntax Highlighting
 To enable syntax highlighting, specify the programming language right after the opening backticks.  
 
-**Example (Python):**
-<pre>
-```python
-def greet(name):
-    print(f"Hello, {name}!")
+**Example:**
+
+## 5. Quotes & Notes
+
+### Blockquotes
+Blockquotes are created using the `>` character at the beginning of a line.  
+They are typically used to highlight quotes, notes, or tips.
+
+**Example:**
+> This is a simple blockquote.
+
+### Nested Blockquotes
+To nest blockquotes, add another `>` in front of the lines.  
+Each level adds one more `>` symbol.
+
+**Example:**
+> This is the first level.  
+>> This is a nested (second-level) quote.
+
+### Blockquotes with formatting
+You can use **bold**, *italic*, `inline code`, and even lists inside blockquotes.
+
+**Example:**
+> **Note:** You can use *Markdown* formatting  
+> inside blockquotes, including `inline code`.
+>
+> - Item 1  
+> - Item 2
+
+## 6. Tables
+Tables are useful for presenting structured information such as comparisons, data, or summaries.  
+They are created using `|` (vertical bars) and `-` (dashes).
+
+### Basic Tables
+A table needs at least three columns separated by vertical bars (`|`) and a header separator row made of dashes (`---`).
+
+**Example:**
+| Name | Age | City |
+|------|-----|------|
+| Nadja | 24 | Berlin |
+| Alessandro | 30 | London |
+| Arty | 28 | Paris |
+
+### Alignment
+You can align text in columns by adding colons `:` in the separator row:
+
+- `:---` → Left-aligned  
+- `:---:` → Centered  
+- `---:` → Right-aligned
+
+**Example:**
+| Left | Center | Right |
+|:-----|:------:|------:|
+| a    |   b    |     c |
+| d    |   e    |     f |
+
+### Complex Tables
+You can include **inline formatting**, **links**, and **images** inside table cells.
+
+**Example:**
+| Name | Info | Link |
+|------|------|------|
+| **Billy** | *Designer* | [Portfolio](https://example.com) |
+| **Bob** | ![Icon](https://via.placeholder.com/15) Developer | [GitHub](https://github.com) |
+
+## 7. Task Lists
+Task lists are a GitHub-specific Markdown feature that allows you to create checkboxes for tracking tasks.  
+They are especially useful in issues, pull requests, or README files.
+
+### Creating Task Lists
+Use `- [ ]` for an unchecked box and `- [x]` for a checked box.  
+Make sure there is a space after the brackets.
+
+**Example:**
+- [ ] Learn Markdown basics
+- [x] Create cheat sheet
+- [ ] Push changes to GitHub
+
+## 8. Dividers & Layout
+Markdown allows to separate sections visually or control line breaks.  
+This improves readability, especially in long documents.
+
+### Horizontal Rules
+Horizontal rules create a visual divider.  
+They are created with three or more dashes `---`, asterisks `***`, or underscores `___` on a line by themselves.
+
+**Example:**
+---
+***
+___
+
+### Line Breaks
+To create a line break (a new line without starting a new paragraph), add two or more spaces at the end of a line.
+
+**Example:**
+This is the first line.  
+This is the second line.
+
+> Note: Just pressing Enter once does **not** create a line break in Markdown.
+
+### Combining Dividers with Headings
+You can use horizontal rules to separate sections in combination with headings.
+
+**Example:**
+## Section 1
+Content of section 1.
+
+## 10. Platform/Tool Specific: GitHub
+GitHub supports standard Markdown plus some **additional features** that are useful for collaboration and project management.
+
+---
+
+### Task Lists
+GitHub allows interactive task lists in issues, pull requests, and README files.  
+Use `- [ ]` for unchecked and `- [x]` for checked boxes.
+
+**Example:**
+- [x] Complete README
+- [ ] Add cheat sheet
+- [ ] Push changes
+
+### Mentioning Users
+You can mention GitHub users in comments or Markdown by using `@username`.  
+This will send a notification to that user.
+
+**Example:**
+@lassagna Please review this section.
+
+### Automatic Linking of Issues / Pull Requests
+Use `#` followed by the issue or pull request number to automatically link it.
+
+**Example:**
+Fixed in #42
+
+### Emoji Shortcodes
+GitHub supports emoji shortcodes.  
+Use `:shortcode:` to display emojis.
+
+**Example:**
+These are my favorite ones
+:smiley: :star_struck: :sunglasses: :see_no_evil: :rocket:
 
 --- 
 # ToDo
 
-
-
 ## 4. Code & Technical Content
-Inline code
-Fenced code blocks
-Syntax highlighting (languages like Python, R, HTML, etc.)
-
-## 5. Quotes & Notes
-Blockquotes
-Nested blockquotes
-Blockquotes with formatting
-
-## 6. Tables
-Basic tables
-Alignment
-Complex tables
-
-## 7. Task Lists
-Checkboxes
-
-## 8. Dividers & Layout
-Horizontal rules
-Line breaks
+Fenced code blocks - find example
+Syntax highlighting (languages like Python, R, HTML, etc.) - find example
 
 ## 9. Online and collaborative editors
 Markdown-based editors
-
-## 10. Platform/Tool Specific: GitHub
-Task lists
-Mentioning users (@username)
-Automatic linking of issues/PRs
-Emoji shortcodes
