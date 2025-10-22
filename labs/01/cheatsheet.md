@@ -281,7 +281,7 @@ Use `:shortcode:` to display emojis.
 
 **Example:**
 These are my favorite ones
-:smiley: :star_struck: :sunglasses: :see_no_evil: :rocket:
+😃 🤩 😎 🙈 🚀
 
 --- 
 # ToDo
