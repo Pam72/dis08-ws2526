@@ -1,4 +1,4 @@
-#Markdown Cheat Sheet
+# Markdown Cheat Sheet
 
 This document provides an overview of Markdown elements with brief explanations, code examples, and rendered results.
 Markdown is a simple markup language for formatting text on platforms like GitHub.
@@ -9,12 +9,28 @@ You can also see https://www.markdownguide.org/cheat-sheet/ for a quick overview
 ## 1. Basic Formatting
 
 ### Headings
-Headings are created with `#`. The more `#`, the smaller the heading.
+Headings are created with `#`. The more `#`, the smaller the heading. Note the space!
 
 **Example:**
 # H1 - '# H1'
 ## H2 - '## H2'
 ### H3 - '### H3'
+
+### Bold
+Bold is created with '**'
+**This text is bold**. If only **certain** words need to be **bold**, just put the '**' around single words. Otherwise wrap the whole sentence with '**'.
+
+### Italic
+Italic is created with '_'. 
+
+**Example:**
+_This text is in italic_. If only _certain_ words need to be _italic_, just put the _ around single words. Otherwise wrap the whole sentence with '_'.
+
+### Strikethrough
+Strikethrough is created with '~~'.
+
+**Example:**
+~~This text is with strikethrough~~. If only ~~certain~~ words need to be ~~strikethrough~~, just put the '~~' around single words. Otherwise wrap the whole sentence with ~~.
 
 --- 
 # ToDo
@@ -22,15 +38,21 @@ Headings are created with `#`. The more `#`, the smaller the heading.
 ## Basic Formatting
 
 Paragraphs & line breaks
-Bold
-Italic
-Bold
-Strikethrough
+
 Inline code
 
 ## Lists
-Unordered lists
-Ordered lists
+### Ordered List
+
+1. First item
+2. Second item
+3. Third item
+
+### Unordered List
+
+- First item
+- Second item
+- Third item
 Nested lists
 
 ## Links & Images
