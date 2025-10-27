@@ -31,33 +31,33 @@ Second paragraph with a line break.
 Bold text is created using double asterisks `**`
 Bold text can also be created by using double underscores `__`.
 
-**Example:**
+**Example:**  
 **This text is bold**. If only **certain** words need to be **bold**, just put the `**` around single words.   
 
 ### Italic
 Italic is created with one asteriks `*`. 
 Italic text can also be created by using the single underscore `_`.
 
-**Example:**
+**Example:**  
 _This text is in italic_. If only _certain_ words need to be _italic_, just put the `_` around single words.  
 
 ### Bold & Italic
 Text can be in italic and bold using three asterisks `***` or three underscore `___`.
 
-**Example:**
+**Example:**  
 ***This text is bold and italic***  
 
 ### Strikethrough
 Strikethrough text is created with double tildes `~~`.
 
-**Example:**
+**Example:**  
 ~~This text is with strikethrough~~. If only ~~certain~~ words need to be ~~strikethrough~~, just put the `~~` around single words.  
 
 ### Inline Code
 Inline code is created by wrapping text in single backticks `` ` ``.  
 This prevents Markdown from interpreting formatting symbols inside.
 
-**Example:**
+**Example:**  
 Use the command `git status` to check your repository.  
 
 ## 2. Lists
@@ -66,7 +66,7 @@ Use the command `git status` to check your repository.
 Unordered lists are created with `-`, `*`, or `+` followed by a space.  
 All three work the same, but it’s good practice to stay consistent.
 
-**Example:**
+**Example:**  
 - First item
 - Second item
 - Third item
@@ -75,7 +75,7 @@ All three work the same, but it’s good practice to stay consistent.
 Ordered lists are created by writing numbers followed by a dot and a space (`1. `, `2. `, etc.).  
 The actual numbers you use don’t matter — Markdown automatically renders them in order.
 
-**Example:**
+**Example:**  
 1. First item
 2. Second item
 3. Third item
@@ -84,7 +84,7 @@ The actual numbers you use don’t matter — Markdown automatically renders the
 You can nest lists by adding two spaces or a tab before the sub-items.  
 You can also mix ordered and unordered lists.
 
-**Example:**
+**Example:**  
 1. First item
    - Sub-item A
    - Sub-item B
@@ -98,27 +98,27 @@ You can also mix ordered and unordered lists.
 Inline links are created with square brackets for the text and parentheses for the URL:  
 `[link text](URL)`
 
-**Example:**
+**Example:**  
 [OpenAI](https://openai.com) - `[OpenAI](https://openai.com)`
 
 ### Reference-Style Links
 Reference-style links let you define your URLs elsewhere in the document for better readability.  
 They are especially useful when you have the same link multiple times.
-
-**Example:**
+ 
+**Example:**  
 This is a [reference link][1] example.  
 [1]: https://openai.com
 
 ### Images
 Images use a similar syntax as links but start with an exclamation mark `!`.
 
-**Example:**
+**Example:**  
 ![Placeholder image](https://via.placeholder.com/150)
 
 ### Image + Link Combination
 You can make an image clickable by wrapping it inside a link.
 
-**Example:**
+**Example:**  
 [![Placeholder image](https://via.placeholder.com/100)](https://openai.com)
 
 ## 4. Code & Technical Content
@@ -127,7 +127,7 @@ You can make an image clickable by wrapping it inside a link.
 Inline code is created by wrapping text in single backticks `` ` ``.  
 This is useful for short commands, filenames, or code references inside a sentence.
 
-**Example:**
+**Example:**  
 Use the command `git status` to check your repository.
 
 ### Fenced Code Blocks
