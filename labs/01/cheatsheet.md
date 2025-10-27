@@ -140,16 +140,21 @@ print("This works!")
 ```
 
 You can also use **tildes (`~~~`)** instead of backticks for the same effect:
-<pre>
+
 ~~~
 print("This works too!")
 ~~~
-</pre>
+
 
 ### Syntax Highlighting
 To enable syntax highlighting, specify the programming language right after the opening backticks.  
+GitHub and many Markdown renderers support languages like `python`, `html`, `bash`, `r`, etc.
 
-**Example:**
+**Example (Python):**  
+<pre>
+```python
+def greet(name):
+    print(f"Hello, {name}!")
 
 ## 5. Quotes & Notes
 
@@ -258,7 +263,30 @@ You can use horizontal rules to separate sections in combination with headings.
 
 **Example:**
 ## Section 1
-Content of section 1.
+Content of section 1.  
+
+## 9. Online & Collaborative Editors
+
+Markdown can be written in many editors, both online and offline.  
+Some of them support live preview, collaboration, and additional features.
+
+### Popular Markdown Editors
+
+| Editor | Type | Features |
+|--------|------|----------|
+| **Dillinger** | Online | Live preview, export to HTML/PDF, cloud integration |
+| **Typora** | Desktop (Windows, macOS, Linux) | WYSIWYG editor, live preview, table editing |
+| **HackMD / CodiMD** | Online | Collaborative editing, real-time sharing, export options |
+| **Visual Studio Code** | Desktop | Markdown preview, extensions, Git integration |
+| **Obsidian** | Desktop | Note-taking, backlinks, Markdown-based knowledge base |
+
+
+### Features to Look For
+- **Live Preview:** See how your Markdown will render in real time.  
+- **Collaboration:** Multiple users can edit the same document simultaneously.  
+- **Export Options:** Export to PDF, HTML, or Word formats.  
+- **Syntax Highlighting:** Some editors highlight Markdown syntax for easier editing.  
+- **Git Integration:** Commit changes directly from the editor to your repository.
 
 ## 10. Platform/Tool Specific: GitHub
 GitHub supports standard Markdown plus some **additional features** that are useful for collaboration and project management.
@@ -292,13 +320,3 @@ Use `:shortcode:` to display emojis.
 **Example:**
 These are my favorite ones
 😃 🤩 😎 🙈 🚀
-
---- 
-# ToDo
-
-## 4. Code & Technical Content
-Fenced code blocks - find example
-Syntax highlighting (languages like Python, R, HTML, etc.) - find example
-
-## 9. Online and collaborative editors
-Markdown-based editors
