@@ -135,6 +135,10 @@ To display larger code snippets, use three backticks (```` ``` ````) before and 
 This preserves formatting and indentation.
 
 **Example:**  
+```
+print("This works!")
+```
+
 You can also use **tildes (`~~~`)** instead of backticks for the same effect:
 <pre>
 ~~~
