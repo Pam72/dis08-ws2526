@@ -134,7 +134,13 @@ Use the command `git status` to check your repository.
 To display larger code snippets, use three backticks (```` ``` ````) before and after the code block.  
 This preserves formatting and indentation.
 
-**Example:**
+**Example:**  
+You can also use **tildes (`~~~`)** instead of backticks for the same effect:
+<pre>
+~~~
+print("This works too!")
+~~~
+</pre>
 
 ### Syntax Highlighting
 To enable syntax highlighting, specify the programming language right after the opening backticks.  
