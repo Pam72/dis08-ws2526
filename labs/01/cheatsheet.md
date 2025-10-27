@@ -151,10 +151,10 @@ To enable syntax highlighting, specify the programming language right after the 
 GitHub and many Markdown renderers support languages like `python`, `html`, `bash`, `r`, etc.
 
 **Example (Python):**  
-<pre>
 ```python
 def greet(name):
     print(f"Hello, {name}!")
+```
 
 ## 5. Quotes & Notes
 
