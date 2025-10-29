@@ -30,6 +30,3 @@ Assess how well the dataset follows the FAIR principles (Findable, Accessible, I
 
 > [!IMPORTANT]
 > Finally, add a Markdown-formatted file (`dataset.md`) containing the dataset description, augmentation ideas and potential research questions, and the FAIR review to the lab repository. Please use a clear structure (headings, bullet points, tables where appropriate).# Open Data
-
-> [!NOTE]
-> Please update this file by copying over the content found at https://gist.github.com/breuert/02fcce56cb75cc75e1105f491a2f6e84
